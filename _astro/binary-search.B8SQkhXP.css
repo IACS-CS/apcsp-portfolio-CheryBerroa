@@ -70,6 +70,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(270deg, #add8e6, #0000ff); /* Baby blue to blue */
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
 
 
 
