@@ -1,7 +1,7 @@
 import "../styles/styles.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import "@picocss/pico/css/pico.min.css";
+//import "@picocss/pico/css/pico.min.css";
 console.log("What?");
 console.log("Hello world, from main.js!");
 if (typeof window !== "undefined") {
