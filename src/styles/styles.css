@@ -54,6 +54,11 @@ article {
     max-width: 1200px;
 }
 
+iframe {
+    margin: auto;
+    display: block;
+}
+
 p {
     line-height: 1.6;
 }
@@ -93,3 +98,6 @@ body {
     color: #333; /* Text color */
 }
 
+.license {
+    text-align: center;
+}
