@@ -1,0 +1,54 @@
+---
+import Project from "../../components/Project.astro"
+---
+
+<Project
+  title="Mash Game"
+  assignment="Create a program built on the concept of binary search"
+>
+<main>
+ <h2>Overview</h2>
+    <p>
+      In this project, my group and I created a game from scratch based on chocolate bars. The game determines which chocolate bar you are most like based on your answers to a series of questions.
+    </p>
+
+    <h2>How It Works</h2>
+    <p>
+      The game begins by asking the user for their name. Then, it presents a series of questions related to personal preferences, such as favorite colors, seasons, and activities. Each question has multiple-choice answers that guide the user toward discovering their ideal chocolate bar.
+    </p>
+
+    <h2>Visuals</h2>
+   
+    <p>
+      Here's a screenshot of the project interface, giving a glimpse of how users interact with the game.
+    </p>
+    </main>
+  <!-- Replace src="" on iframe with address of your published
+   project :-) -->
+  <iframe 
+    src="https://iacs-cs.github.io/mash-game-angel-team/" 
+    title="Personality Quiz"
+    width="100%"
+    height="800px"
+  ></iframe>
+<main>
+  <h3>HTML Structure</h3>
+  
+    The HTML is what builds the structure of the game. It sets up the main part of the page where players will see the quiz questions and results. The HTML connects to the <code>main.js</code> file, which makes the game interactive.
+  </p>
+
+  <h3>CSS Style</h3>
+  <p>
+    The CSS is what makes the game look nice. It gives the page a dark background and a clean layout, so players can easily focus on answering the questions. The page is also designed to look good on any screen size, whether on a phone or computer.
+  </p>
+
+  <h3>main.js: JavaScript Logic</h3>
+  <p>
+    The main.js file is the brain of the game. It starts by asking for your name and then takes you through a series of fun questions. Based on your answers, it uses binary search to figure out which chocolate bar you match with. 
+  </p>
+  <p>
+    Once the quiz is done, you get a fun result showing which chocolate bar matches your personality. You can choose to play again or leave, with a thank-you message at the end.
+  </p>
+</main>
+
+</Project>
