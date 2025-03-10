@@ -1,0 +1,49 @@
+---
+import Project from "../../components/Project.astro"
+---
+
+<Project
+  title="Disease Simulation Project"
+  assignment="Create a simulation to model the spread of a disease within a population"
+>
+<main>
+  <h2>Overview</h2>
+  <p>
+    In this project, my team and I developed a simulation to model the spread of a disease within a population. The goal was to track how the disease spreads based on various factors such as infection rate, recovery rate, death rate, and quarantine chances. The simulation allows us to observe how the disease spreads, the number of infected individuals, recoveries, and deaths over time.
+  </p>
+
+  <h2>How It Works</h2>
+  <p>
+    The simulation starts with a population of individuals. Each person can be in one of several states: infected, recovered, dead, or healthy. The disease spreads through contact between infected and healthy individuals, with certain chances of infection, recovery, and death. Over time, the simulation updates each individual’s status based on these factors. Some individuals may recover, while others might die or remain infected.
+  </p>
+
+  <h2>Visuals</h2>
+  <p>
+    Here's a screenshot of the simulation interface, showing how users can track the spread of the disease and see the status of each individual.
+  </p>
+</main>
+<!-- Replace src="" on iframe with address of your published project :-) -->
+<iframe 
+  src="https://iacs-cs.github.io/systems-project-disease-modeling-we-hate-mondays/" 
+  title="Disease Simulation"
+  width="100%"
+  height="800px"
+/>
+
+<main>
+  <h3>HTML</h3>
+  <p>
+    The HTML for our disease simulation sets up the structure of the interface. It contains elements for displaying the population status, infection statistics, and buttons for starting the simulation or resetting it. The HTML organizes the layout to clearly show relevant information to the user.
+  </p>
+
+  <h3>Style</h3> 
+  <p>
+    Our CSS styles the simulation to ensure that it’s easy to follow and visually engaging. We used a clean layout to display important data like infection rates and recovery statistics. The design aims to keep the user focused on the simulation's progress and results.
+  </p>
+
+  <h3>Main.js</h3>
+  <p>
+    The main.js file controls the logic of the disease simulation. It handles the population creation, disease spread mechanics, and updates the statuses of individuals based on the parameters set (such as infection chances, recovery rates, etc.). This is where all the calculations happen that determine how the disease spreads, how many people get infected, recover, or die, and how the simulation progresses over time.
+  </p>
+</main>
+</Project>
